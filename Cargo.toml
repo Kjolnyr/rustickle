@@ -1,0 +1,16 @@
+[package]
+name = "rustickle"
+authors = ["Kjolnyr <kjolnyr@protonmail.com>"]
+version = "0.1.0"
+edition = "2021"
+description = "Rust embedded Tcl implementation"
+repository = "https://github.com/kjolnyr/rustickle"
+readme = "README.md"
+keywords = ["language", "script", "scripting", "tcl", "embedded"]
+
+
+[dependencies]
+
+# Enable high optimizations for dependencies, but not for our code:
+[profile.dev.package."*"]   
+opt-level = 3
