@@ -3,8 +3,10 @@ name = "rustickle"
 authors = ["Kjolnyr <kjolnyr@protonmail.com>"]
 version = "0.1.0"
 edition = "2021"
+license = "BSD-3-Clause"
 description = "Rust embedded Tcl implementation"
 repository = "https://github.com/kjolnyr/rustickle"
+homepage = "https://kjolnyr.github.io/"
 readme = "README.md"
 keywords = ["language", "script", "scripting", "tcl", "embedded"]
 
